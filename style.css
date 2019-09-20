@@ -1,12 +1,41 @@
+#nav {
+    height: 60px;
+    width: 109.8%;
+    margin-top: 20px;
+    margin-left: -75px;
+    text-align: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,255,1) 50%, rgba(0,255,31,1) 100%);
+    position: absolute;
+    z-index: 800;
+    overflow: hidden;
+    background-color: transparent;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 10px #999;
+}
+
+h1 {
+    color: white;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    margin-top: 6px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
 #container {
-    height: 930px;
+    height: 1000px;
     width: 1532px;
-    padding-top: 50px;
     padding-left: 75px;
     padding-right: 75px;
     text-align: center;
     background-color: black;
-    margin: -10px;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
 }
 
 #canvas {
