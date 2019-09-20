@@ -1,0 +1,82 @@
+#container {
+    height: 930px;
+    width: 1532px;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+    background-color: black;
+    margin: -10px;
+}
+
+#canvas {
+    height: 800px;
+    width: 100%;
+}
+
+#btnContainer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 1px 10px black;
+    border: none;
+    transition: 0.9s;
+}
+
+#mello:hover {
+    background-color: dodgerblue;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+#rammstein:hover {
+    background-color: red;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+#electro:hover {
+    background-color: green;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+#instru:hover {
+    background-color: red;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+#dubstep:hover {
+    background-color: green;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+#beats:hover {
+    background-color: dodgerblue;
+    box-shadow: 0 1px 10px darkslategray;
+    cursor: pointer;
+}
+
+
+
+
+
